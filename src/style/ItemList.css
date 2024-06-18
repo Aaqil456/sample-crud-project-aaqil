@@ -1,0 +1,87 @@
+/* ItemList.css */
+
+
+/* Item list container */
+.item-list-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.item-list-container h2 {
+  text-align: center;
+  color: #000000;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Item list */
+.item-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #fafafa;
+  width: 100%;
+}
+
+/* Item list item */
+.item-list-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(206, 115, 115);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgb(238, 237, 240);
+}
+
+.item-list-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Item details */
+.item-details {
+  margin-bottom: 10px;
+}
+
+
+.item-actions {
+  display: flex;
+  align-items: center;
+}
+
+.item-name {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.item-description {
+  font-size: 16px;
+  color: #413c3c;
+}
+
+.item-button {
+  background-color: #ec7674;
+  color: rgb(218, 153, 153);
+  border: none;
+  padding: 6px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.item-button:hover {
+  background-color: #eb1010;
+}
+.no-item-paragraph{
+  text-align: center;
+  color: #000000;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}

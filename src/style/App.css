@@ -1,0 +1,110 @@
+/* App.css */
+
+/* Overall app container */
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff3f3;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Heading style */
+  .App h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  }
+  
+  /* Button style */
+  .item-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  }
+  
+  .item-button
+  {
+  background-color: #45a049;
+  }
+  
+  /* Form and list container styles */
+  .form-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  }
+  
+
+  
+  .item-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #0f0f0f;
+  border-radius: 4px;
+  font-size: 16px;
+  }
+  
+ 
+  
+  .item-list ul {
+  list-style-type: none;
+  padding: 0;
+  }
+  
+  /* style for the box that show list */
+  .item-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #727070;
+  border-radius: 10px;
+  background-color: #f7eded;
+  }
+  
+  .item-list li button {
+  background-color: #8135e5;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  border-radius: 6px;
+  }
+  
+  .item-list li button
+  {
+  background-color: #c62828;
+  }
+  
+  .clear-button {
+  background-color: #e94e4e;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  }
+  .clear-button-container {
+  display: flex;
+  justify-content: center; /* Centers the button horizontally /
+  margin: 20px 0; / Optional: add some vertical margin for spacing */
+  }
+  .clear-button:hover {
+    background-color: #ee2222;
+  }

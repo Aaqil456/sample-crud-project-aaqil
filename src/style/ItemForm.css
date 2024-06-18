@@ -1,0 +1,81 @@
+/* Container for form and its elements */
+  /* ItemForm component */
+.item-form {
+  background-color: #fcfcff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(221, 219, 219, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  }
+
+/* Container for input and label */
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* Input field styling */
+.item-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  color: #333;
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+/* Label styling */
+.input-label {
+  position: absolute;
+  top: 12px; /* Adjusted to align better with input text */
+  left: 12px;
+  padding: 0 5px;
+  background-color: #ffffff;
+  color: #999;
+  font-size: 14px;
+  transition: 0.2s ease all;
+  pointer-events: none;
+}
+
+/* Move label up when input is focused or not empty */
+.item-input:focus ~ .input-label,
+.item-input:not(:placeholder-shown) ~ .input-label {
+  top: -10px;
+  left: 12px;
+  color: #333;
+  font-size: 12px;
+}
+
+/* Button container for centering */
+.submit-button-container {
+  text-align: center;
+  margin-top: 20px; /* Added margin for spacing */
+}
+
+/* Button styling */
+.submit-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+/* For a cleaner and more interactive focus effect on input fields */
+.item-input:focus {
+  border-color: #4caf50;
+  outline: none;
+  background-color: #f0fff4;
+}
