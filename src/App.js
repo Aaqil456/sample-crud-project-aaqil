@@ -46,7 +46,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>CRUD App Using Map Data Structure</h1>
+      <h1>CRUD Peoject App Using Map Data Structure</h1>
       <div className="form-list-container">
         <ItemForm onSubmit={handleAddItem} />
         <ItemList items={items} onDelete={handleDeleteItem} onUpdate={handleUpdateItem} />
