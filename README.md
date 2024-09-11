@@ -7,10 +7,12 @@ Below are the instruction to run the project
 4. Once the folder is in your desktop open your terminal
    and navigate to the folder
 5. To navigate to the folder use the command "cd desktop" followed by the folder
-   name in this case use the command "cd sample-crud-project-aaqil"
+   name in this case use the command "cd sample-crud-project-aaqil-master"
 6. Once you navigate to the correct folder use the command "npm start" to
-   run the project
-7. You can gain the access to test the project in your localhost that will
+   run the project. If you encounter problem like "react-scripts' is not recognized as an internal or external command,
+   operable program or batch file." run the command "npm install react-scripts --save" and rerun the command "npm start" again
+   
+8. You can gain the access to test the project in your localhost that will
    be shown in the terminal which is http://localhost:3000
 
 Challenges And how I face it
