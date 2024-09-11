@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sample-crud-project-aaqil/static/css/main.c4fd15c5.css",
+    "main.js": "/sample-crud-project-aaqil/static/js/main.45a0dff8.js",
+    "static/js/453.c4197f6e.chunk.js": "/sample-crud-project-aaqil/static/js/453.c4197f6e.chunk.js",
+    "index.html": "/sample-crud-project-aaqil/index.html",
+    "main.c4fd15c5.css.map": "/sample-crud-project-aaqil/static/css/main.c4fd15c5.css.map",
+    "main.45a0dff8.js.map": "/sample-crud-project-aaqil/static/js/main.45a0dff8.js.map",
+    "453.c4197f6e.chunk.js.map": "/sample-crud-project-aaqil/static/js/453.c4197f6e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4fd15c5.css",
+    "static/js/main.45a0dff8.js"
+  ]
+}
